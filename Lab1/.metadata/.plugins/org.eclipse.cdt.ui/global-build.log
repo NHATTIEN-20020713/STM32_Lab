@@ -77,3 +77,10 @@ Finished building: Lab1_1_STM32.hex
  
 Finished building: Lab1_1_STM32.list
  
+18:12:12 **** Incremental Build of configuration Debug for project Lab1_1_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_1_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4576	     20	   1572	   6168	   1818	Lab1_1_STM32.elf
+Finished building: default.size.stdout
+ 
