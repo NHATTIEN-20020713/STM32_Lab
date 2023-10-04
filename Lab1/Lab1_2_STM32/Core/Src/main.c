@@ -91,8 +91,34 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  // 'N' is for the first state and after that is the next state for red, yellow, green
+  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, RESET);
+  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, SET);
+  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, SET);
+  char color = 'R';
   while (1)
   {
+	  if(color == 'R')
+	  {
+		  HAL_Delay(5000);
+		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+		  HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+		  color = 'G';
+	  }
+	  else if(color == 'Y')
+	  {
+		  HAL_Delay(2000);
+		  HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
+		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+		  color = 'R';
+	  }
+	  else if(color == 'G')
+	  {
+		  HAL_Delay(3000);
+		  HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+		  HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
+		  color = 'Y';
+	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
