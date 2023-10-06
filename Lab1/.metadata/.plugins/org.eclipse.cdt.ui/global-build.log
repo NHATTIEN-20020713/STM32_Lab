@@ -2834,3 +2834,2324 @@ arm-none-eabi-size   Lab1_3_STM32.elf
    5900	     20	   1572	   7492	   1d44	Lab1_3_STM32.elf
 Finished building: default.size.stdout
  
+16:53:15 **** Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c6ux.d" -MT"Core/Startup/startup_stm32f103c6ux.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c6ux.o" "../Core/Startup/startup_stm32f103c6ux.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:229:21: error: 'num' undeclared (first use in this function)
+  229 |    setNumberOnClock(num);
+      |                     ^~~
+../Core/Src/main.c:229:21: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:28:06 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *sec++;
+      |  ^~~~~~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *min++;
+      |   ^~~~~~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *hour++;
+      |   ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:253:25: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:254:25: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:28:27 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *sec++;
+      |  ^~~~~~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *min++;
+      |   ^~~~~~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *hour++;
+      |   ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:253:26: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&min / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+../Core/Src/main.c:254:26: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&sec / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:29:11 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:180:9: warning: comparison between pointer and integer
+  180 |  if(sec >= 60)
+      |         ^~
+../Core/Src/main.c:185:9: warning: comparison between pointer and integer
+  185 |  if(min >= 60)
+      |         ^~
+../Core/Src/main.c:190:10: warning: comparison between pointer and integer
+  190 |  if(hour >= 24)
+      |          ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:253:26: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&min / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+../Core/Src/main.c:254:26: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&sec / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:29:16 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:177:18: error: expected ';', ',' or ')' before '&' token
+  177 | void setTime(int &hour, int &min, int &sec)
+      |                  ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:250:4: warning: implicit declaration of function 'setTime' [-Wimplicit-function-declaration]
+  250 |    setTime(&hour, &min, &sec);
+      |    ^~~~~~~
+../Core/Src/main.c:253:26: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&min / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+../Core/Src/main.c:254:26: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&sec / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:30:39 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:177:18: error: expected ';', ',' or ')' before '&' token
+  177 | void setTime(int &hour, int &min, int &sec)
+      |                  ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:250:4: warning: implicit declaration of function 'setTime' [-Wimplicit-function-declaration]
+  250 |    setTime(hour, min, sec);
+      |    ^~~~~~~
+../Core/Src/main.c:253:25: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(min / 5);
+      |                     ~~~~^~~
+      |                         |
+      |                         int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:254:25: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  254 |    setNumberOnClock(sec / 5);
+      |                     ~~~~^~~
+      |                         |
+      |                         int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:30:50 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:177:18: error: expected ';', ',' or ')' before '&' token
+  177 | void setTime(int &hour, int &min, int &sec)
+      |                  ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:250:4: warning: implicit declaration of function 'setTime' [-Wimplicit-function-declaration]
+  250 |    setTime(hour, min, sec);
+      |    ^~~~~~~
+../Core/Src/main.c:252:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  252 |    setNumberOnClock(hour);
+      |                     ^~~~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:253:25: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(min / 5);
+      |                     ~~~~^~~
+      |                         |
+      |                         int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:254:25: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  254 |    setNumberOnClock(sec / 5);
+      |                     ~~~~^~~
+      |                         |
+      |                         int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:48:15 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:177:37: error: expected ';', ',' or ')' before '&' token
+  177 | void setTime(int hour, int min, int &sec)
+      |                                     ^
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:250:4: warning: implicit declaration of function 'setTime' [-Wimplicit-function-declaration]
+  250 |    setTime(hour, min, sec);
+      |    ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:49:12 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5124	     20	   1572	   6716	   1a3c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:49:50 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:180:9: warning: comparison between pointer and integer
+  180 |  if(sec >= 60)
+      |         ^~
+../Core/Src/main.c:185:9: warning: comparison between pointer and integer
+  185 |  if(min >= 60)
+      |         ^~
+../Core/Src/main.c:190:10: warning: comparison between pointer and integer
+  190 |  if(hour >= 24)
+      |          ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:250:12: warning: passing argument 1 of 'setTime' makes pointer from integer without a cast [-Wint-conversion]
+  250 |    setTime(hour, min, sec);
+      |            ^~~~
+      |            |
+      |            int
+../Core/Src/main.c:177:19: note: expected 'int *' but argument is of type 'int'
+  177 | void setTime(int *hour, int *min, int *sec)
+      |              ~~~~~^~~~
+../Core/Src/main.c:250:18: warning: passing argument 2 of 'setTime' makes pointer from integer without a cast [-Wint-conversion]
+  250 |    setTime(hour, min, sec);
+      |                  ^~~
+      |                  |
+      |                  int
+../Core/Src/main.c:177:30: note: expected 'int *' but argument is of type 'int'
+  177 | void setTime(int *hour, int *min, int *sec)
+      |                         ~~~~~^~~
+../Core/Src/main.c:250:23: warning: passing argument 3 of 'setTime' makes pointer from integer without a cast [-Wint-conversion]
+  250 |    setTime(hour, min, sec);
+      |                       ^~~
+      |                       |
+      |                       int
+../Core/Src/main.c:177:40: note: expected 'int *' but argument is of type 'int'
+  177 | void setTime(int *hour, int *min, int *sec)
+      |                                   ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5128	     20	   1572	   6720	   1a40	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:50:16 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:180:9: warning: comparison between pointer and integer
+  180 |  if(sec >= 60)
+      |         ^~
+../Core/Src/main.c:185:9: warning: comparison between pointer and integer
+  185 |  if(min >= 60)
+      |         ^~
+../Core/Src/main.c:190:10: warning: comparison between pointer and integer
+  190 |  if(hour >= 24)
+      |          ^~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5132	     20	   1572	   6724	   1a44	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:50:48 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:50:59 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *sec++;
+      |  ^~~~~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:51:21 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:51:25 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:52:35 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+18:53:52 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:252:21: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  252 |    setNumberOnClock(&hour);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int *'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:253:26: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&min / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+../Core/Src/main.c:254:26: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&sec / 5);
+      |                     ~~~~ ^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:54:04 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+18:55:11 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:57:03 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5136	     20	   1572	   6728	   1a48	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+18:58:38 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+18:58:56 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:58:58 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:59:00 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:59:01 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:59:03 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:59:05 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+18:59:07 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:00:48 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:01:52 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:08:08 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4912	     20	   1572	   6504	   1968	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:09:43 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int **'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:197:21: error: invalid operands to binary / (have 'int **' and 'int')
+  197 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:09:55 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(h);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int *'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:196:20: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  setNumberOnClock(m/5);
+      |                    ^
+../Core/Src/main.c:197:20: error: invalid operands to binary / (have 'int *' and 'int')
+  197 |  setNumberOnClock(s/5);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:09:58 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(h);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int *'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:196:20: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  setNumberOnClock(m/5);
+      |                    ^
+../Core/Src/main.c:197:20: error: invalid operands to binary / (have 'int *' and 'int')
+  197 |  setNumberOnClock(s/5);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:12:21 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5220	     20	   1572	   6812	   1a9c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:12:28 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5220	     20	   1572	   6812	   1a9c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:14:22 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5220	     20	   1572	   6812	   1a9c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+19:15:32 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5220	     20	   1572	   6812	   1a9c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:19:54 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:197:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  197 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5244	     20	   1572	   6836	   1ab4	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:20:08 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:196:20: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  setNumberOnClock(m/5);
+      |                    ^
+../Core/Src/main.c:197:20: error: invalid operands to binary / (have 'int *' and 'int')
+  197 |  setNumberOnClock(s/5);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:20:26 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' from incompatible pointer type [-Wincompatible-pointer-types]
+  195 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int **'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:197:21: error: invalid operands to binary / (have 'int **' and 'int')
+  197 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:21:15 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:251:21: error: 'h' undeclared (first use in this function)
+  251 |    setNumberOnClock(h);
+      |                     ^
+../Core/Src/main.c:251:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:252:21: error: 'm' undeclared (first use in this function)
+  252 |    setNumberOnClock(m/5);
+      |                     ^
+../Core/Src/main.c:253:21: error: 's' undeclared (first use in this function)
+  253 |    setNumberOnClock(s/5);
+      |                     ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:21:37 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:251:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  251 |    setNumberOnClock(hour);
+      |                     ^~~~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:252:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  252 |    setNumberOnClock(min/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:253:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(sec/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5240	     20	   1572	   6832	   1ab0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:21:51 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:252:25: error: invalid operands to binary / (have 'int *' and 'int')
+  252 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:253:25: error: invalid operands to binary / (have 'int *' and 'int')
+  253 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:22:06 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:251:21: error: invalid type argument of unary '*' (have 'int')
+  251 |    setNumberOnClock(*hour);
+      |                     ^~~~~
+../Core/Src/main.c:252:21: error: invalid type argument of unary '*' (have 'int')
+  252 |    setNumberOnClock(*min/5);
+      |                     ^~~~
+../Core/Src/main.c:253:21: error: invalid type argument of unary '*' (have 'int')
+  253 |    setNumberOnClock(*sec/5);
+      |                     ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:22:17 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:251:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  251 |    setNumberOnClock(hour);
+      |                     ^~~~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:252:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  252 |    setNumberOnClock(min/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:253:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(sec/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5240	     20	   1572	   6832	   1ab0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+19:23:47 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:253:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(hour);
+      |                     ^~~~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:254:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  254 |    setNumberOnClock(min/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:255:24: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  255 |    setNumberOnClock(sec/5);
+      |                     ~~~^~
+      |                        |
+      |                        int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5240	     20	   1572	   6832	   1ab0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:24:09 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:254:25: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:255:25: error: invalid operands to binary / (have 'int *' and 'int')
+  255 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:24:23 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:254:4: error: void value not ignored as it ought to be
+  254 |    setNumberOnClock(&min)/5;
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:255:4: error: void value not ignored as it ought to be
+  255 |    setNumberOnClock(&sec)/5;
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:24:55 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:254:21: error: lvalue required as unary '&' operand
+  254 |    setNumberOnClock(&(min/5));
+      |                     ^
+../Core/Src/main.c:255:21: error: lvalue required as unary '&' operand
+  255 |    setNumberOnClock(&(sec/5));
+      |                     ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:27:50 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:254:25: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:255:25: error: invalid operands to binary / (have 'int *' and 'int')
+  255 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:30:17 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:180:7: warning: comparison between pointer and integer
+  180 |  if(s >= 60)
+      |       ^~
+../Core/Src/main.c:185:7: warning: comparison between pointer and integer
+  185 |  if(m >= 60)
+      |       ^~
+../Core/Src/main.c:190:7: warning: comparison between pointer and integer
+  190 |  if(h >= 24)
+      |       ^~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:254:25: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:255:25: error: invalid operands to binary / (have 'int *' and 'int')
+  255 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:33:14 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:180:7: warning: comparison between pointer and integer
+  180 |  if(s >= 60)
+      |       ^~
+../Core/Src/main.c:185:7: warning: comparison between pointer and integer
+  185 |  if(m >= 60)
+      |       ^~
+../Core/Src/main.c:190:7: warning: comparison between pointer and integer
+  190 |  if(h >= 24)
+      |       ^~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:33:22 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:33:33 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:35:50 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *s++;
+      |  ^~~~
+../Core/Src/main.c:180:7: warning: comparison between pointer and integer
+  180 |  if(s >= 60)
+      |       ^~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *m++;
+      |   ^~~~
+../Core/Src/main.c:185:7: warning: comparison between pointer and integer
+  185 |  if(m >= 60)
+      |       ^~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *h++;
+      |   ^~~~
+../Core/Src/main.c:190:7: warning: comparison between pointer and integer
+  190 |  if(h >= 24)
+      |       ^~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5216	     20	   1572	   6808	   1a98	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:39:02 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *s++;
+      |  ^~~~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *m++;
+      |   ^~~~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *h++;
+      |   ^~~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5224	     20	   1572	   6816	   1aa0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+Finished building: Lab1_6_STM32.hex
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:40:23 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *s++;
+      |  ^~~~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *m++;
+      |   ^~~~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *h++;
+      |   ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:253:21: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  253 |    setNumberOnClock(&hour);
+      |                     ^~~~~
+      |                     |
+      |                     int *
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int *'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:254:25: error: invalid operands to binary / (have 'int *' and 'int')
+  254 |    setNumberOnClock(&min/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+../Core/Src/main.c:255:25: error: invalid operands to binary / (have 'int *' and 'int')
+  255 |    setNumberOnClock(&sec/5);
+      |                     ~~~~^
+      |                     |
+      |                     int *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:40:56 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5224	     20	   1572	   6816	   1aa0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+19:41:32 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5224	     20	   1572	   6816	   1aa0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:42:56 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5076	     20	   1572	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+Finished building: Lab1_6_STM32.bin
+ 
+ 
+ 
+19:43:05 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5076	     20	   1572	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:44:10 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5068	     20	   1580	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:44:48 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int **'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:195:21: error: invalid operands to binary / (have 'int **' and 'int')
+  195 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:45:04 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int **'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:195:21: error: invalid operands to binary / (have 'int **' and 'int')
+  195 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:45:08 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int **'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:195:21: error: invalid operands to binary / (have 'int **' and 'int')
+  195 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:45:17 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(h);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:73:27: note: expected 'int' but argument is of type 'int *'
+   73 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:195:20: error: invalid operands to binary / (have 'int *' and 'int')
+  195 |  setNumberOnClock(m/5);
+      |                    ^
+../Core/Src/main.c:196:20: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  setNumberOnClock(s/5);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:45:32 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5068	     20	   1580	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:45:45 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5068	     24	   1576	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:46:12 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5068	     24	   1576	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+19:49:47 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5092	     24	   1576	   6692	   1a24	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:51:21 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' from incompatible pointer type [-Wincompatible-pointer-types]
+  194 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int **'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: error: invalid operands to binary / (have 'int **' and 'int')
+  195 |  setNumberOnClock(&m/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+../Core/Src/main.c:196:21: error: invalid operands to binary / (have 'int **' and 'int')
+  196 |  setNumberOnClock(&s/5);
+      |                   ~~^
+      |                   |
+      |                   int **
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:51:28 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:20: error: invalid operands to binary / (have 'int *' and 'int')
+  195 |  setNumberOnClock(m/5);
+      |                    ^
+../Core/Src/main.c:196:20: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  setNumberOnClock(s/5);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:51:40 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5092	     24	   1576	   6692	   1a24	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:52:49 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:179:2: warning: value computed is not used [-Wunused-value]
+  179 |  *s++;
+      |  ^~~~
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *m++;
+      |   ^~~~
+../Core/Src/main.c:188:3: warning: value computed is not used [-Wunused-value]
+  188 |   *h++;
+      |   ^~~~
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5092	     24	   1576	   6692	   1a24	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:53:36 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:183:3: warning: value computed is not used [-Wunused-value]
+  183 |   *m++;
+      |   ^~~~
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5092	     24	   1576	   6692	   1a24	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+19:53:48 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5092	     24	   1576	   6692	   1a24	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+ 
+Finished building: Lab1_6_STM32.list
+ 
+19:59:46 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setNumberOnClock':
+../Core/Src/main.c:79:14: warning: comparison between pointer and integer
+   79 |  else if(num == 1)
+      |              ^~
+../Core/Src/main.c:83:14: warning: comparison between pointer and integer
+   83 |  else if(num == 2)
+      |              ^~
+../Core/Src/main.c:87:14: warning: comparison between pointer and integer
+   87 |  else if(num == 3)
+      |              ^~
+../Core/Src/main.c:91:14: warning: comparison between pointer and integer
+   91 |  else if(num == 4)
+      |              ^~
+../Core/Src/main.c:95:14: warning: comparison between pointer and integer
+   95 |  else if(num == 5)
+      |              ^~
+../Core/Src/main.c:99:14: warning: comparison between pointer and integer
+   99 |  else if(num == 6)
+      |              ^~
+../Core/Src/main.c:103:14: warning: comparison between pointer and integer
+  103 |  else if(num == 7)
+      |              ^~
+../Core/Src/main.c:107:14: warning: comparison between pointer and integer
+  107 |  else if(num == 8)
+      |              ^~
+../Core/Src/main.c:111:14: warning: comparison between pointer and integer
+  111 |  else if(num == 9)
+      |              ^~
+../Core/Src/main.c:115:14: warning: comparison between pointer and integer
+  115 |  else if(num == 10)
+      |              ^~
+../Core/Src/main.c:119:14: warning: comparison between pointer and integer
+  119 |  else if(num == 11)
+      |              ^~
+../Core/Src/main.c: In function 'clearNumberOnClock':
+../Core/Src/main.c:131:14: warning: comparison between pointer and integer
+  131 |  else if(num == 1)
+      |              ^~
+../Core/Src/main.c:135:14: warning: comparison between pointer and integer
+  135 |  else if(num == 2)
+      |              ^~
+../Core/Src/main.c:139:14: warning: comparison between pointer and integer
+  139 |  else if(num == 3)
+      |              ^~
+../Core/Src/main.c:143:14: warning: comparison between pointer and integer
+  143 |  else if(num == 4)
+      |              ^~
+../Core/Src/main.c:147:14: warning: comparison between pointer and integer
+  147 |  else if(num == 5)
+      |              ^~
+../Core/Src/main.c:151:14: warning: comparison between pointer and integer
+  151 |  else if(num == 6)
+      |              ^~
+../Core/Src/main.c:155:14: warning: comparison between pointer and integer
+  155 |  else if(num == 7)
+      |              ^~
+../Core/Src/main.c:159:14: warning: comparison between pointer and integer
+  159 |  else if(num == 8)
+      |              ^~
+../Core/Src/main.c:163:14: warning: comparison between pointer and integer
+  163 |  else if(num == 9)
+      |              ^~
+../Core/Src/main.c:167:14: warning: comparison between pointer and integer
+  167 |  else if(num == 10)
+      |              ^~
+../Core/Src/main.c:171:14: warning: comparison between pointer and integer
+  171 |  else if(num == 11)
+      |              ^~
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:194:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  194 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:195:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*m/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:21: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*s/5);
+      |                   ~~^~
+      |                     |
+      |                     int
+../Core/Src/main.c:73:28: note: expected 'int *' but argument is of type 'int'
+   73 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5068	     24	   1576	   6668	   1a0c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+13:28:02 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  195 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:197:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  197 |  setNumberOnClock(*m);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:199:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  199 |  setNumberOnClock(*s);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5108	     24	   1576	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+13:28:42 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:195:19: warning: passing argument 1 of 'setNumberOnClock' from incompatible pointer type [-Wincompatible-pointer-types]
+  195 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int **'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:196:7: error: invalid operands to binary / (have 'int *' and 'int')
+  196 |  m = m/5;
+      |       ^
+../Core/Src/main.c:197:19: warning: passing argument 1 of 'setNumberOnClock' from incompatible pointer type [-Wincompatible-pointer-types]
+  197 |  setNumberOnClock(&m);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int **'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:199:19: warning: passing argument 1 of 'setNumberOnClock' from incompatible pointer type [-Wincompatible-pointer-types]
+  199 |  setNumberOnClock(&s);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int **'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:35:31 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:255:4: error: 'm' undeclared (first use in this function)
+  255 |    m = m/5;
+      |    ^
+../Core/Src/main.c:255:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:257:4: error: 's' undeclared (first use in this function)
+  257 |    s = s/5;
+      |    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:35:54 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5124	     24	   1576	   6724	   1a44	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+13:38:38 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5124	     24	   1576	   6724	   1a44	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+13:48:57 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:196:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(*h);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:198:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  198 |  setNumberOnClock(*m);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+../Core/Src/main.c:200:19: warning: passing argument 1 of 'setNumberOnClock' makes pointer from integer without a cast [-Wint-conversion]
+  200 |  setNumberOnClock(*s);
+      |                   ^~
+      |                   |
+      |                   int
+../Core/Src/main.c:74:28: note: expected 'int *' but argument is of type 'int'
+   74 | void setNumberOnClock(int *num)
+      |                       ~~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5132	     24	   1576	   6732	   1a4c	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.hex
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+13:59:02 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:196:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(h);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int *'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:197:7: error: invalid operands to binary / (have 'int *' and 'int')
+  197 |  m = m/5;
+      |       ^
+../Core/Src/main.c:198:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  198 |  setNumberOnClock(m);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int *'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:199:7: error: invalid operands to binary / (have 'int *' and 'int')
+  199 |  s = s/5;
+      |       ^
+../Core/Src/main.c:200:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  200 |  setNumberOnClock(s);
+      |                   ^
+      |                   |
+      |                   int *
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int *'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+13:59:37 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'setTime':
+../Core/Src/main.c:196:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  196 |  setNumberOnClock(&h);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int **'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:198:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  198 |  setNumberOnClock(&m);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int **'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+../Core/Src/main.c:200:19: warning: passing argument 1 of 'setNumberOnClock' makes integer from pointer without a cast [-Wint-conversion]
+  200 |  setNumberOnClock(&s);
+      |                   ^~
+      |                   |
+      |                   int **
+../Core/Src/main.c:74:27: note: expected 'int' but argument is of type 'int **'
+   74 | void setNumberOnClock(int num)
+      |                       ~~~~^~~
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5112	     20	   1572	   6704	   1a30	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+14:04:11 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.list
+ 
+ 
+14:04:25 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:08:08 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+14:08:13 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:08:14 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:08:16 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:08:18 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:08:20 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5116	     20	   1572	   6708	   1a34	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:45:49 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+Finished building: Lab1_6_STM32.bin
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+14:45:59 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:17 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:19 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:21 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:23 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:24 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:26 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:27 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:46:30 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:24 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:25 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:27 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:28 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:30 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:32 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:33 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:47:35 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5160	     20	   1572	   6752	   1a60	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:50:51 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab1_6_STM32.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32_Lab\Lab1\Lab1_6_STM32\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab1_6_STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab1_6_STM32.elf
+ 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+arm-none-eabi-objdump -h -S  Lab1_6_STM32.elf  > "Lab1_6_STM32.list"
+arm-none-eabi-objcopy  -O ihex  Lab1_6_STM32.elf  "Lab1_6_STM32.hex"
+arm-none-eabi-objcopy  -O binary  Lab1_6_STM32.elf  "Lab1_6_STM32.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab1_6_STM32.hex
+Finished building: Lab1_6_STM32.bin
+Finished building: Lab1_6_STM32.list
+ 
+ 
+ 
+14:50:54 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:50:55 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:50:57 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:50:59 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:54:48 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:54:49 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:54:51 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
+14:54:54 **** Incremental Build of configuration Debug for project Lab1_6_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab1_6_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5032	     20	   1572	   6624	   19e0	Lab1_6_STM32.elf
+Finished building: default.size.stdout
+ 
