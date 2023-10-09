@@ -13,8 +13,8 @@
 		<item key="selection" value="num"/>
 		<list key="findhistory">
 			<item value="*num"/>
-			<item value="**num"/>
 			<item value="num"/>
+			<item value="**num"/>
 		</list>
 		<list key="replacehistory">
 			<item value="num"/>
