@@ -360,10 +360,7 @@ int main(void)
 	  {
 		  setTimer3(15);
 		  updateLedMatrix(index_led_matrix++);
-		  if(index_led_matrix == MAX_LED_MATRIX)
-		  {
-			  index_led_matrix = 0;
-		  }
+		  if(index_led_matrix == MAX_LED_MATRIX) index_led_matrix = 0;
 	  }
 	  if(timer4_flag == 1)
 	  {
