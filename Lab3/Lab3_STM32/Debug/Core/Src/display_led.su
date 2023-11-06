@@ -1,0 +1,11 @@
+display_led.c:11:6:displayFirstLedCouple	16	static
+display_led.c:40:6:displaySecondLedCouple	16	static
+display_led.c:67:6:toggleLeds	16	static
+display_led.c:87:6:displaySEG7_1	16	static
+display_led.c:190:6:displaySEG7_2	16	static
+display_led.c:292:6:enable0	8	static
+display_led.c:297:6:enable1	8	static
+display_led.c:302:6:enable2	8	static
+display_led.c:307:6:enable3	8	static
+display_led.c:312:6:showTimeDelay_First	16	static
+display_led.c:319:6:showTimeDelay_Second	16	static
