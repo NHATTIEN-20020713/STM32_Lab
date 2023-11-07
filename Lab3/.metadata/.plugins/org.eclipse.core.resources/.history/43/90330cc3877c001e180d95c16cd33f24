@@ -8,12 +8,9 @@
 #include "auto.h"
 
 
-void auto_run()
-{
-	if(MODE == MODE1)
-	{
-		switch(firstCoupleLedAutoState)
-		{
+void auto_run(){
+	if(MODE == MODE1){
+		switch(firstCoupleLedAutoState){
 			case LED_INIT:
 				firstCoupleLedAutoState = RED;
 				setTimer0(100);

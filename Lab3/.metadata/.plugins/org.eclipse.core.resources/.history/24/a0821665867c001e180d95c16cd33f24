@@ -70,6 +70,11 @@ static void MX_TIM2_Init(void);
   * @retval int
   */
 
+
+
+
+
+
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -107,9 +112,9 @@ int main(void)
   displayFirstLedCouple(LED_INIT);
   while (1)
   {
-	  // run the simulation with each mode and press button
 	  auto_run();
 	  manual_run();
+
 
     /* USER CODE END WHILE */
 
