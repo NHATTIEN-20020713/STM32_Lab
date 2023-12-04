@@ -58,3 +58,66 @@ arm-none-eabi-size   Lab5_STM32.elf
   17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
 Finished building: default.size.stdout
  
+19:30:26 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:31 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:32 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:34 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:36 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:38 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:40 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:41 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
+19:30:44 **** Incremental Build of configuration Debug for project Lab5_STM32 ****
+make -j4 all 
+arm-none-eabi-size   Lab5_STM32.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17840	    128	   2720	  20688	   50d0	Lab5_STM32.elf
+Finished building: default.size.stdout
+ 
