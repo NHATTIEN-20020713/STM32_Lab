@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Lab5_STM32/Core/Src/globa.c&apos; to &apos;global.c&apos;" description="Rename resource &apos;globa.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/globa.c" name="global.c" stamp="1701690937219" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Lab5_STM32/Core/Src/commnad_parser_fsm.c&apos; to &apos;command_parser_fsm.c&apos;" description="Rename resource &apos;commnad_parser_fsm.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/commnad_parser_fsm.c" name="command_parser_fsm.c" stamp="1701690958615" updateReferences="true"/>
+</session>
